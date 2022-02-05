@@ -4,6 +4,6 @@ import org.junit.*;
 public class DemoTest {
     @Test
     public void testNot() {
-        assertEquals(false, Demo.not(false)); //will fail
+        assertEquals(true, Demo.not(false)); //will pass
     }
 }
